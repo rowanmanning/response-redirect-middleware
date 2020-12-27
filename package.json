@@ -1,0 +1,35 @@
+{
+  "name": "@rowanmanning/response-redirect-middleware",
+  "version": "0.0.0",
+  "description": "A small convenience utility to generate Express middleware which redirects a request",
+  "keywords": [
+    "express",
+    "middleware",
+    "redirect"
+  ],
+  "author": "Rowan Manning (https://rowanmanning.com/)",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/rowanmanning/response-redirect-middleware.git"
+  },
+  "homepage": "https://github.com/rowanmanning/response-redirect-middleware",
+  "bugs": "https://github.com/rowanmanning/response-redirect-middleware/issues",
+  "license": "MIT",
+  "engines": {
+    "node": ">=10"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "@rowanmanning/eslint-config": "^3.1.0",
+    "@rowanmanning/make": "^2.1.0",
+    "eslint": "^7.16.0",
+    "mocha": "^8.2.1",
+    "nyc": "^15.1.0",
+    "proclaim": "^3.6.0",
+    "sinon": "^9.2.1"
+  },
+  "main": "./index.js",
+  "scripts": {
+    "test": "make ci"
+  }
+}
