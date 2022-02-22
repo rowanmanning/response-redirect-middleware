@@ -47,7 +47,7 @@ this project is linted using [ESLint](https://eslint.org/), configured in the wa
 ESLint errors will fail the build on any PRs. Most editors have an ESLint plugin which will pick up errors, but you can also run the linter manually with the following command:
 
 ```
-make verify
+npm run verify
 ```
 
 ### Unit tests
@@ -57,5 +57,5 @@ This project has unit tests with 100% coverage, and failing unit tests will fail
 You can run tests manually with the following command:
 
 ```
-make test
+npm run test
 ```

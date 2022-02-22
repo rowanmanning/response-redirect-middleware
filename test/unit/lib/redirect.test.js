@@ -1,7 +1,7 @@
 'use strict';
 
-const assert = require('proclaim');
-const sinon = require('sinon');
+const {assert} = require('chai');
+const td = require('testdouble');
 
 describe('lib/redirect', () => {
 	let redirect;
@@ -32,19 +32,18 @@ describe('lib/redirect', () => {
 			beforeEach(() => {
 				mockRequest = {};
 				mockResponse = {
-					redirect: sinon.spy()
+					redirect: td.func()
 				};
 				middleware(mockRequest, mockResponse);
 			});
 
 			it('calls `response.redirect` with the `status` and `path`', () => {
-				assert.calledOnce(mockResponse.redirect);
-				assert.calledWithExactly(mockResponse.redirect, 'mock-status', 'mock-path');
+				td.verify(mockResponse.redirect('mock-status', 'mock-path'), {times: 1});
 			});
 
 		});
 
-		describe('when `locals` is not defined', () => {
+		describe('when `status` is not defined', () => {
 
 			beforeEach(() => {
 				middleware = redirect('mock-path');
@@ -57,14 +56,13 @@ describe('lib/redirect', () => {
 				beforeEach(() => {
 					mockRequest = {};
 					mockResponse = {
-						redirect: sinon.spy()
+						redirect: td.func()
 					};
 					middleware(mockRequest, mockResponse);
 				});
 
 				it('calls `response.redirect` with just the `path`', () => {
-					assert.calledOnce(mockResponse.redirect);
-					assert.calledWithExactly(mockResponse.redirect, 'mock-path');
+					td.verify(mockResponse.redirect('mock-path'), {times: 1});
 				});
 
 			});

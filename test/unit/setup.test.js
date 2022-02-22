@@ -1,9 +1,11 @@
 'use strict';
 
-const assert = require('proclaim');
-const sinon = require('sinon');
+const td = require('testdouble');
 
-sinon.assert.expose(assert, {
-	includeFail: false,
-	prefix: ''
+td.config({
+	ignoreWarnings: true
+});
+
+afterEach(() => {
+	td.reset();
 });
