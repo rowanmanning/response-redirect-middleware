@@ -1,15 +1,14 @@
 
+
 # Contribution Guide
 
-We welcome contributions to this project. This guide outlines what's expected of you when you contribute, and what you can expect from me.
+I welcome contributions to this project. This guide outlines what's expected of you when you contribute, and what you can expect from me in return.
 
 ## Table of Contents
 
   * [What I expect from you](#what-i-expect-from-you)
   * [What you can expect from me](#what-you-can-expect-from-me)
   * [Technical](#technical)
-    * [Linting](#linting)
-    * [Unit tests](#unit-tests)
 
 
 ## What I expect from you
@@ -52,10 +51,10 @@ npm run verify
 
 ### Unit tests
 
-This project has unit tests with 100% coverage, and failing unit tests will fail the build on any PRs. If you add or remove features, please update the tests to match.
+This project has unit tests with good coverage, and failing unit tests will fail the build on any PRs. If you add or remove features, please update the tests to match.
 
 You can run tests manually with the following command:
 
 ```
-npm run test
+npm run test:unit
 ```
