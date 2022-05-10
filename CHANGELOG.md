@@ -1,5 +1,13 @@
 # Changelog
 
+### [2.0.1](https://github.com/rowanmanning/response-redirect-middleware/compare/v2.0.0...v2.0.1) (2022-05-10)
+
+
+### Miscellaneous
+
+* bump eslint from 8.14.0 to 8.15.0 ([c0bbff3](https://github.com/rowanmanning/response-redirect-middleware/commit/c0bbff3179843ce150ca6cca749c86e07d4461af))
+* bump husky from 7.0.4 to 8.0.1 ([42ace9a](https://github.com/rowanmanning/response-redirect-middleware/commit/42ace9ab4dbfa434a17e24943d6fae04ecca122e))
+
 ## [2.0.0](https://github.com/rowanmanning/response-redirect-middleware/compare/v1.1.0...v2.0.0) (2022-05-02)
 
 
