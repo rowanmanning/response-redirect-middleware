@@ -1,5 +1,29 @@
 # Changelog
 
+## [2.1.0](https://github.com/rowanmanning/response-redirect-middleware/compare/v2.0.0...v2.1.0) (2022-06-10)
+
+
+### Features
+
+* ensure typescript types are always valid ([579368a](https://github.com/rowanmanning/response-redirect-middleware/commit/579368a1efa930b3891a66b3ee21440db9d30a65))
+
+
+### Miscellaneous
+
+* bump @commitlint/cli from 16.2.4 to 17.0.0 ([add7ba7](https://github.com/rowanmanning/response-redirect-middleware/commit/add7ba7047ca951adfe404a77690f2d2884259ca))
+* bump @commitlint/cli from 17.0.0 to 17.0.1 ([74e8b66](https://github.com/rowanmanning/response-redirect-middleware/commit/74e8b662ec4e9cdf7324a246a74b8a73187eeab6))
+* bump @commitlint/cli from 17.0.1 to 17.0.2 ([c91835c](https://github.com/rowanmanning/response-redirect-middleware/commit/c91835c3e8ddaa624fa36cf70b56671801a835be))
+* bump @commitlint/config-conventional from 16.2.4 to 17.0.0 ([0a359c0](https://github.com/rowanmanning/response-redirect-middleware/commit/0a359c01835d12abe905d55488244bd579d426f9))
+* bump @commitlint/config-conventional from 17.0.0 to 17.0.2 ([5f818eb](https://github.com/rowanmanning/response-redirect-middleware/commit/5f818ebebe77e690eb142f2085d3690f4371deda))
+* bump @rowanmanning/eslint-config from 3.4.0 to 3.5.0 ([1492a18](https://github.com/rowanmanning/response-redirect-middleware/commit/1492a189a22b8cc1f617d2bf341d98e851085dd6))
+* bump @rowanmanning/eslint-config from 3.5.0 to 4.0.2 ([7e6416d](https://github.com/rowanmanning/response-redirect-middleware/commit/7e6416d226623e9fcad99539ac4cfb46381f516f))
+* bump eslint from 8.14.0 to 8.15.0 ([c0bbff3](https://github.com/rowanmanning/response-redirect-middleware/commit/c0bbff3179843ce150ca6cca749c86e07d4461af))
+* bump eslint from 8.15.0 to 8.16.0 ([f223a7c](https://github.com/rowanmanning/response-redirect-middleware/commit/f223a7c63b593621bef11fafa934e2147714c74c))
+* bump eslint from 8.16.0 to 8.17.0 ([5460f0f](https://github.com/rowanmanning/response-redirect-middleware/commit/5460f0ff9baf9ddbcaa539fec14d54da0690f224))
+* bump husky from 7.0.4 to 8.0.1 ([42ace9a](https://github.com/rowanmanning/response-redirect-middleware/commit/42ace9ab4dbfa434a17e24943d6fae04ecca122e))
+* fix eslint issues ([2e60888](https://github.com/rowanmanning/response-redirect-middleware/commit/2e608880564f738e4dbd70e9a34d8b0d859633d2))
+* **main:** release 2.0.1 ([9abd108](https://github.com/rowanmanning/response-redirect-middleware/commit/9abd108a50d378b8cdfb3ea34ddb374b59bff8dc))
+
 ### [2.0.1](https://github.com/rowanmanning/response-redirect-middleware/compare/v2.0.0...v2.0.1) (2022-05-10)
 
 
