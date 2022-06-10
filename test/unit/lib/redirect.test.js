@@ -18,7 +18,7 @@ describe('lib/redirect', () => {
 		let middleware;
 
 		beforeEach(() => {
-			middleware = redirect('mock-status', 'mock-path');
+			middleware = redirect(345, 'mock-path');
 		});
 
 		it('returns a function', () => {
@@ -38,7 +38,7 @@ describe('lib/redirect', () => {
 			});
 
 			it('calls `response.redirect` with the `status` and `path`', () => {
-				td.verify(mockResponse.redirect('mock-status', 'mock-path'), {times: 1});
+				td.verify(mockResponse.redirect(345, 'mock-path'), {times: 1});
 			});
 
 		});
@@ -61,8 +61,8 @@ describe('lib/redirect', () => {
 					middleware(mockRequest, mockResponse);
 				});
 
-				it('calls `response.redirect` with just the `path`', () => {
-					td.verify(mockResponse.redirect('mock-path'), {times: 1});
+				it('calls `response.redirect` with the `path` and a default status code', () => {
+					td.verify(mockResponse.redirect(302, 'mock-path'), {times: 1});
 				});
 
 			});
