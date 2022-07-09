@@ -1,5 +1,12 @@
 # Changelog
 
+## [2.1.1](https://github.com/rowanmanning/response-redirect-middleware/compare/v2.1.0...v2.1.1) (2022-07-09)
+
+
+### Bug Fixes
+
+* hide the misc changelog section ([5e4abba](https://github.com/rowanmanning/response-redirect-middleware/commit/5e4abbab2f831ba610cfb0b91ea91b3d6f37d7d0))
+
 ## [2.1.0](https://github.com/rowanmanning/response-redirect-middleware/compare/v2.0.0...v2.1.0) (2022-06-10)
 
 
