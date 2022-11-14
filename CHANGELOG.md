@@ -1,5 +1,12 @@
 # Changelog
 
+## [2.1.2](https://github.com/rowanmanning/response-redirect-middleware/compare/v2.1.1...v2.1.2) (2022-11-14)
+
+
+### Bug Fixes
+
+* improve TypeScript compatibility ([87f82bd](https://github.com/rowanmanning/response-redirect-middleware/commit/87f82bda25b2bc1002183a2c6f96ef1a98e9c475))
+
 ## [2.1.1](https://github.com/rowanmanning/response-redirect-middleware/compare/v2.1.0...v2.1.1) (2022-07-09)
 
 
