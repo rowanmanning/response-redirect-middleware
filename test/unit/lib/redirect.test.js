@@ -71,4 +71,10 @@ describe('lib/redirect', () => {
 
 	});
 
+	describe('.default', () => {
+		it('aliases the module exports', () => {
+			assert.strictEqual(redirect, redirect.default);
+		});
+	});
+
 });
