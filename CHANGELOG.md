@@ -1,5 +1,12 @@
 # Changelog
 
+## [2.1.3](https://github.com/rowanmanning/response-redirect-middleware/compare/v2.1.2...v2.1.3) (2023-01-08)
+
+
+### Bug Fixes
+
+* bump json5 from 2.2.1 to 2.2.3 ([68d75c5](https://github.com/rowanmanning/response-redirect-middleware/commit/68d75c5b3d8fc03ea44af6edbbcb63385dfb2d64))
+
 ## [2.1.2](https://github.com/rowanmanning/response-redirect-middleware/compare/v2.1.1...v2.1.2) (2022-11-14)
 
 
