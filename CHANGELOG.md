@@ -1,5 +1,12 @@
 # Changelog
 
+## [2.1.4](https://github.com/rowanmanning/response-redirect-middleware/compare/v2.1.3...v2.1.4) (2023-02-14)
+
+
+### Bug Fixes
+
+* support npm v9 ([9cd91f7](https://github.com/rowanmanning/response-redirect-middleware/commit/9cd91f786079f4e81a7c37a8b7962f27aa1be025))
+
 ## [2.1.3](https://github.com/rowanmanning/response-redirect-middleware/compare/v2.1.2...v2.1.3) (2023-01-08)
 
 

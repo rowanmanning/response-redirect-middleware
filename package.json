@@ -1,6 +1,6 @@
 {
   "name": "@rowanmanning/response-redirect-middleware",
-  "version": "2.1.3",
+  "version": "2.1.4",
   "description": "A small convenience utility to generate Express middleware which redirects a request",
   "keywords": [
     "express",
