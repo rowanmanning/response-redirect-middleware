@@ -20,7 +20,7 @@ app.get('/', redirect('/login'));
 
 This library requires the following to run:
 
-  * [Node.js](https://nodejs.org/) 14+
+  * [Node.js](https://nodejs.org/) 16+
 
 
 ## Usage
