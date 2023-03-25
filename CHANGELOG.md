@@ -1,5 +1,18 @@
 # Changelog
 
+## [3.0.0](https://github.com/rowanmanning/response-redirect-middleware/compare/v2.1.4...v3.0.0) (2023-03-25)
+
+
+### ⚠ BREAKING CHANGES
+
+* drop official support for npm v7
+* drop support for Node.js 14
+
+### Miscellaneous
+
+* drop official support for npm v7 ([ca2c387](https://github.com/rowanmanning/response-redirect-middleware/commit/ca2c387ba24b6cf33ebb145a397d8a28866ae627))
+* drop support for Node.js 14 ([1ed8f3e](https://github.com/rowanmanning/response-redirect-middleware/commit/1ed8f3ea9873e28be1b7f2dd60baa828a41646d2))
+
 ## [2.1.4](https://github.com/rowanmanning/response-redirect-middleware/compare/v2.1.3...v2.1.4) (2023-02-14)
 
 
