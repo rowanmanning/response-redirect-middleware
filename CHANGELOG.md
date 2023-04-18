@@ -1,5 +1,12 @@
 # Changelog
 
+## [3.0.1](https://github.com/rowanmanning/response-redirect-middleware/compare/v3.0.0...v3.0.1) (2023-04-18)
+
+
+### Bug Fixes
+
+* add support for Node.js 20 ([9edfbca](https://github.com/rowanmanning/response-redirect-middleware/commit/9edfbca41c7a42a8a53ad52f1ed7d702a90f6031))
+
 ## [3.0.0](https://github.com/rowanmanning/response-redirect-middleware/compare/v2.1.4...v3.0.0) (2023-03-25)
 
 
