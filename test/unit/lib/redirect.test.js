@@ -1,6 +1,6 @@
 'use strict';
 
-const {assert} = require('chai');
+const assert = require('node:assert');
 const td = require('testdouble');
 
 describe('lib/redirect', () => {
@@ -11,7 +11,7 @@ describe('lib/redirect', () => {
 	});
 
 	it('is a function', () => {
-		assert.isFunction(redirect);
+		assert.strictEqual(typeof redirect, 'function');
 	});
 
 	describe('redirect(status, path)', () => {
@@ -22,7 +22,7 @@ describe('lib/redirect', () => {
 		});
 
 		it('returns a function', () => {
-			assert.isFunction(middleware);
+			assert.strictEqual(typeof middleware, 'function');
 		});
 
 		describe('middleware(request, response)', () => {
