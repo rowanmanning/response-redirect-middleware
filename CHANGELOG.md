@@ -1,5 +1,37 @@
 # Changelog
 
+## 3.0.2 (2023-07-25)
+
+
+### ⚠ BREAKING CHANGES
+
+* drop official support for npm v7
+* drop support for Node.js 14
+* drop support for Node.js versions below 14
+* mocha no longer supports Node.js v12
+
+### Features
+
+* ensure typescript types are always valid ([579368a](https://github.com/rowanmanning/response-redirect-middleware/commit/579368a1efa930b3891a66b3ee21440db9d30a65))
+
+
+### Bug Fixes
+
+* add support for Node.js 20 ([9edfbca](https://github.com/rowanmanning/response-redirect-middleware/commit/9edfbca41c7a42a8a53ad52f1ed7d702a90f6031))
+* bump json5 from 2.2.1 to 2.2.3 ([68d75c5](https://github.com/rowanmanning/response-redirect-middleware/commit/68d75c5b3d8fc03ea44af6edbbcb63385dfb2d64))
+* hide the misc changelog section ([5e4abba](https://github.com/rowanmanning/response-redirect-middleware/commit/5e4abbab2f831ba610cfb0b91ea91b3d6f37d7d0))
+* improve TypeScript compatibility ([87f82bd](https://github.com/rowanmanning/response-redirect-middleware/commit/87f82bda25b2bc1002183a2c6f96ef1a98e9c475))
+* sort out broken releases ([dae2c50](https://github.com/rowanmanning/response-redirect-middleware/commit/dae2c50ee37bcde4a47e3f994edc816f93e1ea78))
+* support npm v9 ([9cd91f7](https://github.com/rowanmanning/response-redirect-middleware/commit/9cd91f786079f4e81a7c37a8b7962f27aa1be025))
+
+
+### Miscellaneous
+
+* bump mocha from 9.2.2 to 10.0.0 ([eda9383](https://github.com/rowanmanning/response-redirect-middleware/commit/eda93838b699dbdb824a9d19e5a8fed19e5dfc22))
+* drop official support for npm v7 ([ca2c387](https://github.com/rowanmanning/response-redirect-middleware/commit/ca2c387ba24b6cf33ebb145a397d8a28866ae627))
+* drop support for Node.js 14 ([1ed8f3e](https://github.com/rowanmanning/response-redirect-middleware/commit/1ed8f3ea9873e28be1b7f2dd60baa828a41646d2))
+* drop support for Node.js versions below 14 ([e036860](https://github.com/rowanmanning/response-redirect-middleware/commit/e036860d4a69c78795d511b3605f18f42fa6d7f2))
+
 ## [3.0.1](https://github.com/rowanmanning/response-redirect-middleware/compare/v3.0.0...v3.0.1) (2023-04-18)
 
 
