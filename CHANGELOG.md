@@ -1,5 +1,12 @@
 # Changelog
 
+## [4.0.1](https://github.com/rowanmanning/response-redirect-middleware/compare/v4.0.0...v4.0.1) (2023-09-12)
+
+
+### Bug Fixes
+
+* clarify types with overloads ([9f08eea](https://github.com/rowanmanning/response-redirect-middleware/commit/9f08eea0604d1e8417660612d3f6802405c520ac))
+
 ## [4.0.0](https://github.com/rowanmanning/response-redirect-middleware/compare/v3.0.2...v4.0.0) (2023-09-11)
 
 
