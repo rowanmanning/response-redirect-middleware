@@ -1,5 +1,12 @@
 # Changelog
 
+## [4.1.0](https://github.com/rowanmanning/response-redirect-middleware/compare/v4.0.1...v4.1.0) (2024-01-30)
+
+
+### Features
+
+* add official support for npm 10 ([309f910](https://github.com/rowanmanning/response-redirect-middleware/commit/309f910f66fe1b9075349095934645878397b24b))
+
 ## [4.0.1](https://github.com/rowanmanning/response-redirect-middleware/compare/v4.0.0...v4.0.1) (2023-09-12)
 
 
