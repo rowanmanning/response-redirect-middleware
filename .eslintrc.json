@@ -1,9 +1,0 @@
-{
-	"extends": [
-		"@rowanmanning/eslint-config"
-	],
-	"rules": {
-		"jsdoc/check-param-names": "off",
-		"jsdoc/require-param": "off"
-	}
-}
