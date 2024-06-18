@@ -38,13 +38,11 @@ describe('lib/redirect', () => {
 			});
 
 			it('calls `response.redirect` with the `status` and `path`', () => {
-				td.verify(mockResponse.redirect(345, 'mock-path'), {times: 1});
+				td.verify(mockResponse.redirect(345, 'mock-path'), { times: 1 });
 			});
-
 		});
 
 		describe('when `status` is not defined', () => {
-
 			beforeEach(() => {
 				middleware = redirect('mock-path');
 			});
@@ -62,13 +60,10 @@ describe('lib/redirect', () => {
 				});
 
 				it('calls `response.redirect` with the `path` and a default status code', () => {
-					td.verify(mockResponse.redirect(302, 'mock-path'), {times: 1});
+					td.verify(mockResponse.redirect(302, 'mock-path'), { times: 1 });
 				});
-
 			});
-
 		});
-
 	});
 
 	describe('.default', () => {
@@ -76,5 +71,4 @@ describe('lib/redirect', () => {
 			assert.strictEqual(redirect, redirect.default);
 		});
 	});
-
 });
