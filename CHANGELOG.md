@@ -1,5 +1,12 @@
 # Changelog
 
+## [4.2.0](https://github.com/rowanmanning/response-redirect-middleware/compare/v4.1.0...v4.2.0) (2024-06-23)
+
+
+### Features
+
+* add Node.js 22 support ([f85aab6](https://github.com/rowanmanning/response-redirect-middleware/commit/f85aab64b1b2457f7bbe2e9a860a5f25040b8dbe))
+
 ## [4.1.0](https://github.com/rowanmanning/response-redirect-middleware/compare/v4.0.1...v4.1.0) (2024-01-30)
 
 
