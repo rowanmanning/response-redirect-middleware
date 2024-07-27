@@ -1,5 +1,12 @@
 # Changelog
 
+## [4.2.1](https://github.com/rowanmanning/response-redirect-middleware/compare/v4.2.0...v4.2.1) (2024-07-27)
+
+
+### Bug Fixes
+
+* prevent husky from failing ([cfab2cc](https://github.com/rowanmanning/response-redirect-middleware/commit/cfab2cc02f61a11d7475e3d055471d8c81f76e60))
+
 ## [4.2.0](https://github.com/rowanmanning/response-redirect-middleware/compare/v4.1.0...v4.2.0) (2024-06-23)
 
 
