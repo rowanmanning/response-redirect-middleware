@@ -1,5 +1,16 @@
 # Changelog
 
+## [5.0.0](https://github.com/rowanmanning/response-redirect-middleware/compare/v4.2.1...v5.0.0) (2025-03-04)
+
+
+### ⚠ BREAKING CHANGES
+
+* drop Node.js 18
+
+### Miscellaneous Chores
+
+* drop Node.js 18 ([201a033](https://github.com/rowanmanning/response-redirect-middleware/commit/201a033571b3a62d39af411653b289dffb0df266))
+
 ## [4.2.1](https://github.com/rowanmanning/response-redirect-middleware/compare/v4.2.0...v4.2.1) (2024-07-27)
 
 
