@@ -1,5 +1,45 @@
 # Changelog
 
+## [3.0.2](https://github.com/rowanmanning/response-redirect-middleware/compare/v5.0.0...v3.0.2) (2025-03-08)
+
+
+### ⚠ BREAKING CHANGES
+
+* drop Node.js 18
+* drop support for Node.js 16
+* drop official support for npm v7
+* drop support for Node.js 14
+* drop support for Node.js versions below 14
+* mocha no longer supports Node.js v12
+
+### Features
+
+* add Node.js 22 support ([f85aab6](https://github.com/rowanmanning/response-redirect-middleware/commit/f85aab64b1b2457f7bbe2e9a860a5f25040b8dbe))
+* add official support for npm 10 ([309f910](https://github.com/rowanmanning/response-redirect-middleware/commit/309f910f66fe1b9075349095934645878397b24b))
+* ensure typescript types are always valid ([579368a](https://github.com/rowanmanning/response-redirect-middleware/commit/579368a1efa930b3891a66b3ee21440db9d30a65))
+
+
+### Bug Fixes
+
+* add support for Node.js 20 ([9edfbca](https://github.com/rowanmanning/response-redirect-middleware/commit/9edfbca41c7a42a8a53ad52f1ed7d702a90f6031))
+* bump json5 from 2.2.1 to 2.2.3 ([68d75c5](https://github.com/rowanmanning/response-redirect-middleware/commit/68d75c5b3d8fc03ea44af6edbbcb63385dfb2d64))
+* clarify types with overloads ([9f08eea](https://github.com/rowanmanning/response-redirect-middleware/commit/9f08eea0604d1e8417660612d3f6802405c520ac))
+* hide the misc changelog section ([5e4abba](https://github.com/rowanmanning/response-redirect-middleware/commit/5e4abbab2f831ba610cfb0b91ea91b3d6f37d7d0))
+* improve TypeScript compatibility ([87f82bd](https://github.com/rowanmanning/response-redirect-middleware/commit/87f82bda25b2bc1002183a2c6f96ef1a98e9c475))
+* prevent husky from failing ([cfab2cc](https://github.com/rowanmanning/response-redirect-middleware/commit/cfab2cc02f61a11d7475e3d055471d8c81f76e60))
+* sort out broken releases ([dae2c50](https://github.com/rowanmanning/response-redirect-middleware/commit/dae2c50ee37bcde4a47e3f994edc816f93e1ea78))
+* support npm v9 ([9cd91f7](https://github.com/rowanmanning/response-redirect-middleware/commit/9cd91f786079f4e81a7c37a8b7962f27aa1be025))
+
+
+### Miscellaneous Chores
+
+* bump mocha from 9.2.2 to 10.0.0 ([eda9383](https://github.com/rowanmanning/response-redirect-middleware/commit/eda93838b699dbdb824a9d19e5a8fed19e5dfc22))
+* drop Node.js 18 ([201a033](https://github.com/rowanmanning/response-redirect-middleware/commit/201a033571b3a62d39af411653b289dffb0df266))
+* drop official support for npm v7 ([ca2c387](https://github.com/rowanmanning/response-redirect-middleware/commit/ca2c387ba24b6cf33ebb145a397d8a28866ae627))
+* drop support for Node.js 14 ([1ed8f3e](https://github.com/rowanmanning/response-redirect-middleware/commit/1ed8f3ea9873e28be1b7f2dd60baa828a41646d2))
+* drop support for Node.js 16 ([6b14171](https://github.com/rowanmanning/response-redirect-middleware/commit/6b14171f90a3c1f06ccf027286e02c58721497d4))
+* drop support for Node.js versions below 14 ([e036860](https://github.com/rowanmanning/response-redirect-middleware/commit/e036860d4a69c78795d511b3605f18f42fa6d7f2))
+
 ## [5.0.0](https://github.com/rowanmanning/response-redirect-middleware/compare/v4.2.1...v5.0.0) (2025-03-04)
 
 
